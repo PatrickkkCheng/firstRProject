@@ -1,0 +1,16 @@
+---
+title: "myfirstMK"
+author: "Patrick"
+date: "2022-09-28"
+output: html_document
+---
+
+```{r}
+animals <- c("Sanke", "Ostrich","Cat","Spider" ) 
+num_legs <- c(0,2,4,8)
+animals_df <- data.frame(animals,num_legs)
+```
+
+```{r}
+print(animals_df)
+```
